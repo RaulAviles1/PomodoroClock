@@ -1,0 +1,28 @@
+<class="container">
+  <div class="title"><p>Pomodoro Clock</p></div>
+  <!--SVG Elements-->
+  <svg class="progress-ring" width="360" height="360" align="center">
+  <circle class="progress-ring__circle" stroke="black" stroke-width="8" fill="white"; r="160" cx="180" cy="180"/>
+  <text id ="timer"class="out-text" x="105" y="195" fill="orange">00:00</text>
+  </svg>
+  <div class="row">
+  <div class="form-group">
+  <label for="session-length">Session Length:</label>
+    <input type="text" class="form-control" id="session-length" value="25">
+</div>
+<button type="button" class="btn btn-primary" id="start-clock">Start Clock</button>
+<div class="form-group">
+  <label for="brake-length">Brake Length:</label>
+  <input type="text" class="form-control" id="brake-length" value="5">
+</div>
+  </div>
+  </div>
+<footer>
+  Developed by <a href="#">ruelan001</a>
+</footer>
+</div>
+
+<audio id="myAudio">
+  <source src="https://docs.google.com/uc?export=open&id=1n54FH16PM6d62aevdqRAteYzYAdnt0M0" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>

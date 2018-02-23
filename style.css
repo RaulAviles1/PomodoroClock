@@ -1,0 +1,41 @@
+body {
+    background-color: orange;
+    font-family: HelveticaNeue-Light;
+    font-size:24px;
+    color:white;
+  }
+  
+  .progress-ring{
+    align:center;
+    display: block;
+    margin: auto;
+  }
+  .progress-ring__circle {
+    stroke-dasharray: 10 20;
+  }
+  .title{
+    padding: 15px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+  }
+  
+  footer{
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .out-text{
+    font-size: 62px;
+    color: blue;
+  }
+  .form-group{
+    align:center;
+    display: block;
+    margin: auto;
+  }
+  button{
+    width: 100px;
+    height:50px;
+    margin-top: 35px;
+  }
